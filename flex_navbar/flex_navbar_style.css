@@ -1,0 +1,64 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    height: auto;
+    background-color:rgb(55, 58, 58);
+    color: blanchedalmond;
+}
+h1{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+.active{
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+.home{
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+.connections{
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}    
+
+ul li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8px;
+    width: 90px;
+    height: 35px;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    font-size: 15px;
+}
