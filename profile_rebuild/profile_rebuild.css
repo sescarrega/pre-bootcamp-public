@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar styling*/
+
+.header{
+    height: 150px;
+    background-color: #c93335;
+    color: blanchedalmond;
+    
+
+}
+.nav_bar div{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+    vertical-align: bottom;
+}
+.title{
+    margin-top: 45px;
+}
+.title_name{
+    font-family: sans-serif;
+    font-size: 55px;
+    font-style: italic;
+    padding: 15px;
+    color: blanchedalmond;
+}
+.nav_links{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 6px;
+    color: blanchedalmond;
+}
+
+button{
+    width: 85px;
+    height: 55px;
+    margin-right: 35px;
+    margin-top: 55px;
+    color: blanchedalmond;
+    background-color: #c5454e;
+}
+
+.columnsflex{
+/* background-color: rgb(238, 232, 224);*/
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.column3{
+    flex: 3;
+    background-color: whitesmoke;
+    height: 800px;
+}
+
+/*START OF MAIN PROFILE INFO*/
+.proflie_page{
+    height: 400px;
+    width: 95%;
+    margin: 25px;
+    background-color:rgb(243, 235, 223);
+    border: 5px solid;
+    border-color: #bcceec;
+}
+.profile_page_banner{
+    height: 100px;
+    width: 100%;
+    background-color: #bcceec ;
+}
+/* main profile info content*/
+.user_pic{
+    margin-top: -100px;
+    margin-left: 15px;
+}
+.user_name{
+    margin-left: 65px;
+}
+.user_location{
+    display: flex;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+.user_location_text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-style: italic;
+}
+.user_description{
+    margin-left: 75px;
+    margin-top: 15px;
+    font-size: 35px;
+}
+.page_edit{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+.gear{
+    margin-left: 75px;
+    margin-right: 10px;
+}
+.edit_profile{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* END OF MAIN PROFILE INFO*/
+/* START OF ACTVITY BOX*/
+.activity_box{
+    height: 300px;
+    width: 95%;
+    margin: 25px;
+    background-color:rgb(243, 235, 223);
+    border: 5px solid;
+    border-color: #bcceec;
+}
+.activity_box_banner{
+    height: 75px;
+    width: 100%;
+    background-color: #bcceec ;
+}
+.activity_box_banner_title{
+    font-family: sans-serif;
+    font-style: italic;
+    color: blanchedalmond;
+    font-size: 45px;
+    padding: 20px;
+}
+/* actvity content / post */
+.post{
+    font-family: sans-serif ;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.post_1{
+    padding: 10px;
+}
+.post_2{
+    padding: 10px;
+}
+.post_3{
+    padding: 10px;
+
+}
+.post_content{
+    color: rgb(101, 100, 100);
+    margin-left: 15px;
+}
+/* END OF ACTVITY BOX*/
+
+/* END OF COLUMN 3*/
+
+.column2{
+    flex:2;
+    background-color:whitesmoke;
+    height: 800px;
+
+}
+
+/* START OF FRIEND REQUEST BOX*/
+.friend_reuest{
+    height: 300px;
+    margin: 25px;
+    background-color:rgb(243, 235, 223);
+    border: 5px solid;
+    border-color: #bcceec;  
+}
+.friend_request_banner{
+    height: 75px;
+    width: 100%;
+    background-color: #bcceec ;
+}
+
+.request_banner_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: blanchedalmond;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 8px;
+}
+.pending_number{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #c5454e;
+    margin-left: 5px ;
+    vertical-align: middle;
+    
+}
+.request_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:25px;
+}
+.requester_image{
+    margin-left: -15px;
+}
+.requester_name{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: -25px;
+}
+.request_action{
+    display: flex;
+    margin-right: -25px;
+    
+}
+.accept{
+    margin: 10px;
+}
+.deny{
+    margin: 10px;
+}
+/* END OF FRIEND REQUEST BOX*/
+/* START OF FRIEND  BOX*/
+.friend_box{
+    height: 400px;
+    margin: 25px;
+    background-color:rgb(243, 235, 223);
+    border: 5px solid;
+    border-color: #bcceec;
+} 
+
+.friend_box_banner{
+    height: 75px;
+    width: 100%;
+    background-color: #bcceec ;
+}
+.friend_box_banner_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: blanchedalmond;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 8px;
+}
+
+.number_of_friends{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #c5454e;
+    margin-left: 5px ;
+    vertical-align: middle;
+}
+.friend_box_content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.friend_img{
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+
+.friend_name{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+/* END OF FRIEND  BOX*/

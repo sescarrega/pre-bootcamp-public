@@ -1,0 +1,25 @@
+button .search{
+    background-color: antiquewhite;
+    color: rgb(172, 36, 172);
+    border: 5px;
+    border-color: aquamarine;
+    border-radius: 25%;
+}
+
+h1{
+    color: aquamarine;
+}
+
+.helpme{
+    height: 180px;
+    width: 180px;
+    color: rgb(92, 140, 140);
+    background-color: rgb(224, 227, 212);
+    border-style: dotted;
+    border: 20px;
+    border-color: rgb(240, 112, 13);
+    border-radius: 50%;
+    font-size: 90px;
+    text-align: right;
+
+}

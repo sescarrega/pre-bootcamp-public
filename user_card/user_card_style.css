@@ -1,0 +1,68 @@
+.container{
+    height: 650px;
+    width: 800px;
+    margin: 0px auto;
+
+    background-color: rgb(235, 236, 231);
+    border: 5px solid coral;
+    
+}
+.banner{
+    height: 150px;
+    width: 800px;
+    background-color: rgb(210, 233, 254);
+}
+
+.user_pic{
+    margin: 45px;
+    width: 200px;
+    height: 200;
+}
+
+.div{
+    flex: 1;
+    height: 100px;
+    width: auto;
+}
+
+
+.user_name{
+    margin-left: 45px;
+}
+
+.user_location{
+    display: flex;
+}
+
+.location_image{
+    margin-top: 22px;
+    margin-left: 45px;
+    margin-right: 10px;
+}
+
+.user_location_text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-style: italic;
+}
+
+.user_description{
+    margin-left: 75px;
+    font-size: 20px;
+}
+
+.page_edit{
+    display: flex;
+    align-items: center;
+    
+}
+.gear{
+    margin-left: 75px;
+    margin-right: 10px;
+}
+.edit_profile{
+    text-decoration: underline;
+    color: blue;
+}
+
+

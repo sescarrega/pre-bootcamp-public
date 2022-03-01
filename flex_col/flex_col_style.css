@@ -1,0 +1,55 @@
+.row{
+    display: flex;
+}
+.col{
+    flex: 4;
+    height: 200px;
+    margin:5px;
+    padding: 10px;
+    background-color: rgb(196, 242, 213);
+}
+.greenbar{
+    flex: 1;
+    height: 50;
+    padding: 5px;
+    background-color: rgb(165, 216, 216);
+}
+.col-one-third{
+    flex: 1;
+    height: 200px;
+    margin:5px;
+    padding: 10px;
+    background-color: rgb(222, 204, 242);
+}
+.col-two{
+    flex: 2;
+    height: 200px;
+    margin:5px;
+    padding: 10px;
+    background-color: rgb(191, 138, 215);
+
+}
+.pinkbar{
+    flex: 1;
+    height: 50;
+    padding: 5px;
+    background-color: #e6bfe2;
+}
+.col-2-5{
+    flex: 2;
+    height: 200px;
+    margin:5px;
+    padding: 10px;
+    background-color: rgb(250, 167, 220);
+}
+.col-3-5{
+    flex: 3;
+    height: 200px;
+    margin:5px;
+    padding: 10px;
+    background-color:#ff92d0 ;
+
+}
+
+
+
